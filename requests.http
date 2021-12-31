@@ -1,13 +1,15 @@
 ### List all messages
-Get http://localhost:3000/messages
+GET http://localhost:3000/messages
+
 
 ### Create a new message
 POST http://localhost:3000/messages
-content-Type: application/json
+content-type: application/json
 
 {
-    "content": "asdf"
+  "content": "second message"
 }
 
+
 ### Get a particular message
-GET  http://localhost:3000/messages/123415
+GET http://localhost:3000/messages/234234234234
